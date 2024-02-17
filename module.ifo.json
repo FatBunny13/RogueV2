@@ -1,0 +1,337 @@
+{
+  "__data_type": "IFO ",
+  "Expansion_Pack": {
+    "type": "word",
+    "value": 3
+  },
+  "Mod_Area_list": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "thecityoframpart"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "dungeonlevel1"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "dungeonlevel2"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "dungeonlevel3"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "dungeonlevel4"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "dungeonlevel5"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "wilderness"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "cryptlevel1"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "cryptlevel2"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "cryptlevel3"
+        }
+      }
+    ]
+  },
+  "Mod_Creator_ID": {
+    "type": "int",
+    "value": 2
+  },
+  "Mod_CustomTlk": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Mod_CutSceneList": {
+    "type": "list",
+    "value": []
+  },
+  "Mod_DawnHour": {
+    "type": "byte",
+    "value": 6
+  },
+  "Mod_DefaultBic": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_Description": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Welcome to the great city of Rampart, home to many of the realms most prestigious adventuring guilds, many a traveler has came here to seek their fortune, although right now the future looks grim for the city. A horde of goblins and kobolds sieged the city, and during the siege the Duke's most prized posession, the Amulet of Yendor was lost! The goblins fled through a portal that is still in the city, all it takes is one brave adventurer to go through and find the amulet and gain great riches!\n\nWhat's the worst that could happen?"
+    }
+  },
+  "Mod_DuskHour": {
+    "type": "byte",
+    "value": 18
+  },
+  "Mod_Entry_Area": {
+    "type": "resref",
+    "value": "thecityoframpart"
+  },
+  "Mod_Entry_Dir_X": {
+    "type": "float",
+    "value": 0.0
+  },
+  "Mod_Entry_Dir_Y": {
+    "type": "float",
+    "value": 1.0
+  },
+  "Mod_Entry_X": {
+    "type": "float",
+    "value": 40.0
+  },
+  "Mod_Entry_Y": {
+    "type": "float",
+    "value": 37.0
+  },
+  "Mod_Entry_Z": {
+    "type": "float",
+    "value": 0.0
+  },
+  "Mod_Expan_List": {
+    "type": "list",
+    "value": []
+  },
+  "Mod_GVar_List": {
+    "type": "list",
+    "value": []
+  },
+  "Mod_HakList": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "lowerrest"
+        }
+      }
+    ]
+  },
+  "Mod_IsSaveGame": {
+    "type": "byte",
+    "value": 0
+  },
+  "Mod_MinGameVer": {
+    "type": "cexostring",
+    "value": "1.88"
+  },
+  "Mod_MinPerHour": {
+    "type": "byte",
+    "value": 2
+  },
+  "Mod_Name": {
+    "type": "cexolocstring",
+    "value": {
+      "0": "Rogue v2"
+    }
+  },
+  "Mod_OnAcquirItem": {
+    "type": "resref",
+    "value": "x2_mod_def_aqu"
+  },
+  "Mod_OnActvtItem": {
+    "type": "resref",
+    "value": "x2_mod_def_act"
+  },
+  "Mod_OnClientEntr": {
+    "type": "resref",
+    "value": "x3_mod_def_enter"
+  },
+  "Mod_OnClientLeav": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_OnCutsnAbort": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_OnHeartbeat": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_OnModLoad": {
+    "type": "resref",
+    "value": "x2_mod_def_load"
+  },
+  "Mod_OnModStart": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_OnNuiEvent": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_OnPlrChat": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_OnPlrDeath": {
+    "type": "resref",
+    "value": "nw_o0_death"
+  },
+  "Mod_OnPlrDying": {
+    "type": "resref",
+    "value": "nw_o0_dying"
+  },
+  "Mod_OnPlrEqItm": {
+    "type": "resref",
+    "value": "x2_mod_def_equ"
+  },
+  "Mod_OnPlrGuiEvt": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_OnPlrLvlUp": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_OnPlrRest": {
+    "type": "resref",
+    "value": "x2_mod_def_rest"
+  },
+  "Mod_OnPlrTarget": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_OnPlrTileAct": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_OnPlrUnEqItm": {
+    "type": "resref",
+    "value": "x2_mod_def_unequ"
+  },
+  "Mod_OnSpawnBtnDn": {
+    "type": "resref",
+    "value": "nw_o0_respawn"
+  },
+  "Mod_OnUnAqreItem": {
+    "type": "resref",
+    "value": "x2_mod_def_unaqu"
+  },
+  "Mod_OnUsrDefined": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_PartyControl": {
+    "type": "int",
+    "value": 0
+  },
+  "Mod_StartDay": {
+    "type": "byte",
+    "value": 1
+  },
+  "Mod_StartHour": {
+    "type": "byte",
+    "value": 13
+  },
+  "Mod_StartMonth": {
+    "type": "byte",
+    "value": 6
+  },
+  "Mod_StartMovie": {
+    "type": "resref",
+    "value": ""
+  },
+  "Mod_StartYear": {
+    "type": "dword",
+    "value": 1372
+  },
+  "Mod_Tag": {
+    "type": "cexostring",
+    "value": "MODULE"
+  },
+  "Mod_UUID": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Mod_Version": {
+    "type": "dword",
+    "value": 3
+  },
+  "Mod_XPScale": {
+    "type": "byte",
+    "value": 25
+  },
+  "VarTable": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "DLevel"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 1
+        },
+        "Value": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Name": {
+          "type": "cexostring",
+          "value": "Location"
+        },
+        "Type": {
+          "type": "dword",
+          "value": 3
+        },
+        "Value": {
+          "type": "cexostring",
+          "value": "Rampart"
+        }
+      }
+    ]
+  }
+}
